@@ -183,13 +183,10 @@ button { font: inherit; cursor: pointer; }
   background: rgba(201,169,97,0.06);
 }
 .brand__logo {
-  width: 46px;
-  height: 46px;
-  object-fit: contain;
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
   border-radius: 50%;
-  border: 1px solid var(--line-gold);
-  background: rgba(201,169,97,0.06);
-  padding: 4px;
 }
 .brand__dot { color: #fff; }
 .brand__text { display: flex; flex-direction: column; line-height: 1.15; }
