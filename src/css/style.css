@@ -169,6 +169,7 @@ button { font: inherit; cursor: pointer; }
 }
 .brand { display: flex; align-items: center; gap: .85rem; color: #fff; }
 .brand__mark {
+
   font-family: var(--serif);
   font-style: italic;
   font-weight: 600;
@@ -180,6 +181,15 @@ button { font: inherit; cursor: pointer; }
   display: inline-flex; align-items: center; justify-content: center;
   border-radius: 50%;
   background: rgba(201,169,97,0.06);
+}
+.brand__logo {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 1px solid var(--line-gold);
+  background: rgba(201,169,97,0.06);
+  padding: 4px;
 }
 .brand__dot { color: #fff; }
 .brand__text { display: flex; flex-direction: column; line-height: 1.15; }
