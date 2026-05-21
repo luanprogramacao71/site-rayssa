@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 /* ===========================================================
    Rayssa Andrade — Advocacia Previdenciária
    Pure HTML5 + CSS3 (no JS)
@@ -23,8 +25,8 @@
   --shadow-md: 0 12px 36px rgba(8, 23, 46, 0.10);
   --shadow-lg: 0 24px 60px rgba(8, 23, 46, 0.18);
 
-  --serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
-  --sans:  'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --serif: 'Poppins', sans-serif;
+  --sans: 'Poppins', sans-serif;
 
   --container: 1200px;
   --radius:    14px;
